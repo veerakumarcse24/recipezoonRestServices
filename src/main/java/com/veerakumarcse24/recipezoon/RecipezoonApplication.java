@@ -3,7 +3,7 @@ package com.veerakumarcse24.recipezoon;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages={"com.veerakumarcse24.recipezoon"})
 public class RecipezoonApplication {
 
 	public static void main(String[] args) {
